@@ -4,7 +4,7 @@
  * @author Козлов Максим
  */
 #include <stdio.h>
-#include "country.h"
+#include "../include/country.h"
 #include "../include/file_handler.h"
 
 #define MAX_COUNTRIES 50
