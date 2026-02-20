@@ -61,7 +61,7 @@ int matches_criteria(const Country *country) {
 }
 
 void country_to_string(const Country *country, char *buffer) {
-    sprintf(buffer, "%-20s | %-15s | %-8s | %-12s | %5d тыс. | %6.1f тыс.км² | %-10s | %-15s | %s",
+    sprintf(buffer, "%-15s | %-12s | %-8s | %-14s | %6d тыс. | %7.1f тыс.км² | %-8s | %-25s | %-15s",
             country->name,
             country->capital,
             country->continent,
