@@ -22,7 +22,7 @@
 3. Подготовить входной файл `data/input.txt`
 4. Запустить:
    ```bash
-   ./bin/file_processor
+   ./bin/country_filter
    ```
 5. Результат будет в `data/output.txt`
 6. Очистка:
